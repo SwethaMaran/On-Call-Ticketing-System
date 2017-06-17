@@ -1,0 +1,30 @@
+To upload the project in GiTHUB:
+
+1)Configure the GIT HUB with a new repository.
+2)Download Git Bash.
+
+# If you are using a MAC, the permission will be denied as it is from an unidentified developer. So go to 
+Apple —> System Preferences —> Security and Privacy. —> Open Anyway.
+
+3)Navigate to the project folder.
+
+4)Type the command --- "git init" from the copied folder were you think changes can be made locally to initialise it to be associated with the GitHub.
+
+5) Add a remote to your branch which is the GitHub. :
+“Git remote add GitHub https://github.com/SwethaMaran/On-Call-Ticketing-System.git”
+
+6)Navigate to the folder containing files to commit.
+
+7)”git add -A” to add all the files.
+
+8)”git commit -m ‘Add all files’ “
+
+9)now push the changes to the branch required
+“Git push -f https://github.com/SwethaMaran/On-Call-Ticketing-System.git {branch}”.
+
+
+
+[we must be in the folder where we want to create our repo]
+$Git clone https://github.com/SwethaMaran/On-Call-Ticketing-System.git{from address}
+
+
